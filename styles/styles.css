@@ -1,0 +1,48 @@
+
+/*.wrapper-landing {
+  background-color: #182952;
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.wrapper-about {
+  background-color: #5893d4;
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+}*/
+
+.main{
+  display: block;
+  text-align: center;
+}
+
+.content {
+  display: inline-block;
+  margin-right: 1px;
+  vertical-align: middle;
+  width: calc(100% - 10px);
+}
+
+.profile_picture {
+  border-radius: 50%;
+  border: 2px rgb(162,162,162) solid;
+}
+
+.list_inline {
+  display: inline;
+}
+
+.list_ref {
+  color: rgb(162,162,162);
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.list_ref:hover {
+  color: rgb(50,50,50);
+}
+
