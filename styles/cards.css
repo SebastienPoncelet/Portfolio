@@ -2,3 +2,71 @@
   display: flex;
   justify-content: space-around;
 }
+
+.card {
+  display: flex;
+  /*margin: 5.5vh 0;*/
+  height: 23vh;
+  width: 40vh;
+  box-shadow: 1px 2px 7px rgba(0,0,0,0.10);
+  /* border-radius: 6px; */
+  position: relative;
+  background-color:white;
+}
+
+/*image ratio width/height 1.74*/
+
+.card_image {
+  height: 23vh;
+  width: 40vh;
+}
+
+.card_video {
+  object-fit: contain;
+}
+
+/*.card-footer .icon {
+  width:8vw;
+  height:4vh;
+  animation-duration: 3s;
+  animation: animation 1000ms linear both;
+}*/
+
+
+/*.cards {
+  margin:-3vh 0 11vh 0;
+}*/
+
+
+.card-body {
+  height: 58vh;
+  /* text-shadow: 0 1px 3px rgba(0,0,0,0.6); */
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  /* border-radius: 6px 6px 0 0; */
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:28vh;
+}
+
+.card-description .name {
+  font-size:15.5px;
+  font-weight:bold;
+  margin:2vh;
+}
+
+.card-footer .styles {
+  background-color:white;
+  color:#872419;
+  font-size:14px;
+  border-radius:1vh;
+  height:3.5vh;
+  padding:0.5vh;
+  margin:0.5vh;
+}
