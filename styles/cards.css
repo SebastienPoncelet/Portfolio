@@ -16,13 +16,13 @@
 
 .card_image {
   height: 23vh;
-  /*width: 40vh;*/
+  width: 40vh;
 }
 
-.card_video {
+/*.card_video {
   object-fit: contain;
   height: 23vh;
-}
+}*/
 
 .card:hover {
   transform: scale(1.1);
