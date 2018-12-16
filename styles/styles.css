@@ -52,8 +52,18 @@ p, li{
 }
 
 .content.skatecity{
+  margin: 5px;
+  padding: 0;
+  width: 50%;
+}
+
+.content.skatecity.title{
+  text-align: center;
+  padding: 0;
+}
+
+.content.skatecity.description{
   text-align: left;
-  margin: 0;
 }
 
 .presentation {
