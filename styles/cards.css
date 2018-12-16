@@ -6,13 +6,14 @@
 }
 
 .card {
-  flex: auto;
+  flex: 1 1;
   margin: 20px;
   box-shadow: 1px 2px 7px rgba(0,0,0,0.10);
   position: relative;
   background-size: cover;
   background-position: center;
   height: 250px;
+  border-radius: 10px;
 }
 
 /*The card_image size seems to be a ration with the content box it's in*/
@@ -29,4 +30,5 @@
   transform: scale(1.1);
   transition: 0.5s;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  cursor:pointer;
 }

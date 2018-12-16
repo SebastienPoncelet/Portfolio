@@ -26,7 +26,7 @@ h3 {
   font-family: 'Acme', sans-serif;
 }
 
-p {
+p, li{
   font-size: 20px;
 }
 
@@ -48,6 +48,10 @@ p {
 .content.landing{
   width: auto;
   margin: 0;
+}
+
+.content.skatecity{
+  text-align: left;
 }
 
 .presentation {
