@@ -35,16 +35,14 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  width: 100%;
   color: white;
 }
 
 .content {
   display: inline-block;
-  /*margin: 15px 0px;*/
-  width: 75%;
-  text-align: center;
-  /*padding: 25px;*/
+  margin: 15px 0px;
+  width: 50%;
+  padding: 25px;
 }
 
 .content.landing{
@@ -52,7 +50,7 @@ p {
   margin: 0;
 }
 
-.content p {
+.presentation {
   text-align: justify;
 }
 

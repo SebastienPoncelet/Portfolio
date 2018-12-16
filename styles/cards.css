@@ -1,26 +1,33 @@
 .cards {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
-  display: flex;
-  height: 23vh;
-  width: 40vh;
+  display: block;
+  margin-top: 20px;
   box-shadow: 1px 2px 7px rgba(0,0,0,0.10);
+  border-radius: 10px;
   position: relative;
-  background-color:white;
 }
 
 /*image ratio width/height 1.74*/
 
 .card_image {
   height: 23vh;
-  width: 40vh;
+  /*width: 40vh;*/
 }
 
 .card_video {
   object-fit: contain;
+  height: 23vh;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
 }
 
 /*.card-footer .icon {
