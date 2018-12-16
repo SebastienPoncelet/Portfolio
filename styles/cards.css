@@ -1,8 +1,5 @@
 .cards {
   display: flex;
-/*  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;*/
 }
 
 .card {
@@ -16,19 +13,16 @@
   border-radius: 10px;
 }
 
-/*The card_image size seems to be a ration with the content box it's in*/
-/*.card_image {
-  height: 27%;
-  width: 50%;
-  height: 20vh;
-  width: 40vw;
-  border-radius: 10px;
-}*/
-
-
 .card:hover {
   transform: scale(1.1);
   transition: 0.5s;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
   cursor:pointer;
+}
+
+.video {
+  display: flex;
+  flex: 1;
+  height: 250px;
+  border-radius: 10px;
 }
