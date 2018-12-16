@@ -1,75 +1,32 @@
 .cards {
   display: flex;
-  flex-wrap: wrap;
+/*  flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;*/
 }
 
 .card {
-  display: block;
-  margin-top: 20px;
+  flex: auto;
+  margin: 20px;
   box-shadow: 1px 2px 7px rgba(0,0,0,0.10);
-  border-radius: 10px;
   position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
 
-/*image ratio width/height 1.74*/
-
-.card_image {
-  height: 23vh;
-  width: 40vh;
-}
-
-/*.card_video {
-  object-fit: contain;
-  height: 23vh;
+/*The card_image size seems to be a ration with the content box it's in*/
+/*.card_image {
+  height: 27%;
+  width: 50%;
+  height: 20vh;
+  width: 40vw;
+  border-radius: 10px;
 }*/
+
 
 .card:hover {
   transform: scale(1.1);
   transition: 0.5s;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
 }
-
-/*.card-footer .icon {
-  width:8vw;
-  height:4vh;
-  animation-duration: 3s;
-  animation: animation 1000ms linear both;
-}*/
-
-
-/*.cards {
-  margin:-3vh 0 11vh 0;
-}*/
-
-
-/*.card-body {
-  height: 58vh;
-  background-size: cover !important;
-  background-position: center;
-  color: white;
-  position: relative;
-}
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top:28vh;
-}
-
-.card-description .name {
-  font-size:15.5px;
-  font-weight:bold;
-  margin:2vh;
-}
-
-.card-footer .styles {
-  background-color:white;
-  color:#872419;
-  font-size:14px;
-  border-radius:1vh;
-  height:3.5vh;
-  padding:0.5vh;
-  margin:0.5vh;
-}*/
