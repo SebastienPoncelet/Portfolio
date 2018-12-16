@@ -2,6 +2,10 @@
 @import url("banner.css");
 @import url("icons.css");
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-size: 60px;
   text-transform: uppercase;
@@ -26,13 +30,21 @@ p {
   font-size: 20px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
 .content {
   display: inline-block;
-  margin: 15px 0px;
-  width: 50%;
-  align-items: top;
+  /*margin: 15px 0px;*/
+  width: 75%;
   text-align: center;
-  padding: 25px;
+  /*padding: 25px;*/
 }
 
 .content.landing{
