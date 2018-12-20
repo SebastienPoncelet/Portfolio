@@ -19,12 +19,12 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .skill {
   display: block;
-  text-align: center;
 }
 
 .skill_icon {
@@ -34,7 +34,6 @@
 }
 
 .skill_title {
-  display: flex;
   text-transform: uppercase;
   margin-top: 15px;
 }
