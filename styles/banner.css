@@ -5,7 +5,7 @@
 }
 
 .banner.landing {
-  background-image: linear-gradient(90deg, rgba(200,200,200,0.2) 0%, rgba(50,50,50,0.6) 50%), url("../images/Workstation_Background_1.jpg");
+  background-image: linear-gradient(90deg, rgba(200,200,200,0.2) 0%, rgba(50,50,50,0.6) 50%), url("../images/Workstation_Background_1_4MP.jpg");
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 }
 
 .banner.bio {
-  background-image: linear-gradient(90deg, rgba(50,50,50,0.6) 0%, rgba(50,50,50,0.6) 50%), url("../images/rotting-wood-texture.jpg");
+  background-image: linear-gradient(90deg, rgba(50,50,50,0.6) 0%, rgba(50,50,50,0.6) 50%), url("../images/rotting-wood-texture_4MP.jpg");
 }
 
 .banner.skatecity {
